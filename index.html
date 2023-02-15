@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html> 
   <meta property="og:type" content="website" />
@@ -18,17 +17,13 @@
 
     <style>
              @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Nanum+Gothic:wght@400;700;800&display=swap');
-             *{font-family: 'Gamja Flower', cursive;
-        font-family: 'Hi Melody', cursive;
-        font-family: 'Nanum Gothic', sans-serif;}
+             *{font-family:'Gamja Flower', cursive;}
 
             .a{color:white;
-            font-family:'Gamja Flower', cursive;
-             background-color: black;
+              background-color: black;
              height: 300px;}
-            .font{
-              font-family:'Gamja Flower', cursive;}
-              
+            
+
             .c{background-color: black;
                height:300px;}
             article{
@@ -54,25 +49,25 @@
             .fix{
             position:fixed;
             background-color: white;
+            width: 100%;
             }
 
             .ab{
             position:absolute;
             width:300px;
             height:300px;
-            top: 500px;
+            top: 550px;
             left: 700px;
             background-color:rgb(205, 204, 204)
             }
             .container{
-            display: grid;
+            display:flex;
             grid-template-columns:repeat(4,1fr);
            }
-         
-            .item{width:200px;
+          
+            .item{width:350px;
                   height:100px ;
                   text-align: center;
-                  font-family:Gamja Flower;
                  border: 1px solid black;
             }
               footer{
@@ -82,7 +77,7 @@
         </style>
     </head>
     <body>
-        <article class="font">
+        <article>
         <div class="container text-center fix">
             <div class="row">
               <div class="col">
@@ -109,7 +104,7 @@
             <h4>다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요</h4>
           </div>
           <br>
-          <div class="container">
+          <div class="container ">
             <div class="item">  <br><strong>경력</strong> <br><a href="#자세히보기1">자세히보기</a></div>
             <div class="item">  <br><strong>취미</strong> <br><a href="#자세히보기2">자세히보기</a></div>
             <div class="item"> <br><strong>기타 </strong><br><a href="#자세히보기3">자세히보기</a></div>
@@ -129,16 +124,14 @@
                 <li>두번째</li>
                 <li>세번째</li></ol>
             <H5>DL을 활용하여 리스트를 표현해보세요</H5>
-            <br>
-            <div>
-                <strong>HypertTest Markup Language(HMTL)</strong> 
+            <dl>
+                 <dt><strong>HypertTest Markup Language(HMTL)</strong></dt>
                 <div>HTML이란?</div>
-            </div>
-            <div><strong>Cascading Style Sheets(CSS)</strong> 
-                <div> CSS란?</div>
-            </div>
-            <div><strong>JacaScipt(JS)</strong> 
-            <div>JS란?</div>
+                 <dt><strong>Cascading Style Sheets(CSS)</strong> </dt>
+                     <div> CSS란?</div>
+                </dt><strong>JacaScipt(JS)</strong> </dt>
+                    <div>JS란?</div>
+            </dl>
             <br><br>
    
   
