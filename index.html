@@ -3,21 +3,91 @@
     <meta charset="utf-8">
     <title>hyojin_kim</title>
     <head>
-        <style>
-             .a{color:blue}
-            h1{background-color: aquamarine;}
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       
+    <style>
+             @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Nanum+Gothic:wght@400;700;800&display=swap');
+             *{font-family: 'Gamja Flower', cursive;
+        font-family: 'Hi Melody', cursive;
+        font-family: 'Nanum Gothic', sans-serif;}
+
+            .a{color:white;
+             font-family:Gamja Flower;}
+            .b{background-color: black;
+               height: 500px;}
+            h1{background-color: black;
+               height:300px;}
+            article{
+                float: left ;
+                width: 300px;
+            }
+            .fix{
+            border:1px solid red;
+            position:fixed;
+            background-color: white;
+            
+        }
         </style>
     </head>
     <body>
+        <article>
+        <div class="container text-center fix">
+            <div class="row">
+              <div class="col">
+                <strong>Hello</strong>
+              </div>
+              <div class="col">
+                검색
+              </div>
+              <div class="col">
+                취미
+              </div>
+              <div class="col">
+                기타
+              </div>
+            </div>
+          </div> </article>
+          <br>
+        <div>
         <h1 class="a">안녕하세요.반갑습니다.</h1>
-        <h2>Bootstrap을 활용해 퍼스널 브랜딩 페이지 만들기</h2>
-        <h5>다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요
+        <div><h2>Bootstrap을 활용해 퍼스널 브랜딩 페이지 만들기</h2></DIV>
+            
+        
+            <h5>다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요
             아직 더 표현하고 싶은게 있으신가요?
             아직도 다양한 태그들이 남았답니다
             여기에서 더 다양한 태그들을 확인해보시고 간단하게 사용해보세요
             이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면? 부스트스트랩 문서를 참고해보세요
-            </h5>
-    </body>
+        </h5>
+        <br>
+        <div>
+        <H5>UL을 활용하여 리스트를 표현해보세요</H5>
+            <ul><li>첫번째</li></ul>
+            <ul><li>두번째</li></ul>
+            <ul><li>세번째</li></ul>
+            <H5>OL을 활용하여 리스트를 표현해보세요</H5>
+            <ol><li>첫번째</li></ol>
+            <ol><li>두번째</li></ol>
+            <ol><li>세번째</li></ol>
+            <H5>DL을 활용하여 리스트를 표현해보세요</H5>
+            <div>
+                <strong>HypertTest Markup Language(HMTL)</strong> 
+                <div>HTML이란?</div>
+            </div>
+            <div><strong>Cascading Style Sheets(CSS)</strong> 
+                <div> CSS란?</div>
+            </div>
+            <div><strong>JacaScipt(JS)</strong> 
+            <div>JS란?</div>
+            </div>
+            <div>취미 <h3>헤딩활용하기</h3> div 요소는 플로우 콘텐츠를 위한 통용 컨테이너입니다.CSS로 꾸미기전에는 콘텐츠나 레이아웃에 어떤 영향도 주지 않습니다<H1>서브헤딩</H1><H5>P요소는 하나의 문단을 나타냅니다. 시각적인 매체에서,문단은 보통 인접블록과의 여백과 첫 줄의 들여쓰기로 구분하지만,HTML에서 문단은 이미지나 입력폼 등 서로 관련있는 콘텐츠 무엇이나 될 수 있습니다</H5></div></div>
+        </div>
+        <div>기타 아직 더 표현하고 싶은게 있으신가요? 아직도 다양한 태그들이 남았답니다. 여기에서 더 다양한 태그들을 확인해보시고 간다낳게 사용해 보세요 이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면? 
+            부스트스트랩 문서를 참고해보세요</div>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Regular shadow</div>
+        </div>
+        </body>
 </html>
